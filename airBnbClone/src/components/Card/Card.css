@@ -1,0 +1,72 @@
+.card {
+    width: 175px;
+    font-size: 12px;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card--star {
+    height: 14px;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+/* ADD */
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
+/* ADD */
+.card--price {
+    margin-top: auto;
+}
+
+.card--badge {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 7px;
+    margin: 5px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: black;
+    z-index: 10;
+}

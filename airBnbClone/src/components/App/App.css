@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 100px;
+    overflow-x: auto;
+}
